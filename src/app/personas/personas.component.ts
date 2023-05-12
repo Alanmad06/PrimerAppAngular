@@ -15,7 +15,8 @@ export class PersonasComponent{
 
     deshabilitar = false
     mensaje = "No se ha agreado ninguna persona"
-    titulo= " inge"
+    titulo= "Ingeniero "
+    mostrar = false
 /*Property Binding 
 Se asginan valores a los elementos del html a traves de Ts , en este caso se modifica el disabled de un boton que estan en html 
 a traves de la variable deshabilitar boton : 
@@ -24,6 +25,7 @@ mientras deshabilitar sea  false el boton sera habilitado y si es true el elemnt
     agregarPersona(){
 
         this.mensaje="Persona Agregada"
+        this.mostrar= true
 
         
     }
